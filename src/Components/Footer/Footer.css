@@ -1,0 +1,33 @@
+.footer-container {
+  margin: 80px 30px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+.footer-container p {
+  font-size: 20px;
+}
+
+.footer-container p strong {
+  color: rgb(0, 194, 248);
+}
+
+@media (max-width: 500px) {
+  .footer-container {
+    margin: 30px;
+  }
+  .footer-container p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    width: 60%;
+    margin-left: 30%;
+    margin-bottom: 30px;
+  }
+  .footer-container p {
+    font-size: 15px;
+  }
+}

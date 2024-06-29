@@ -1,0 +1,161 @@
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.navtoggle {
+  font-size: 40px;
+  border: none;
+  color: black;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+}
+
+.navbar-container {
+  background-color: rgb(0, 7, 21);
+  color: white;
+  width: 30%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  /* top: 0;
+  left: 0; */
+  position: fixed;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container img {
+  margin: 10%;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+}
+
+.image-container p {
+  font-size: 25px;
+}
+
+.image-container hr {
+  border-radius: 2px;
+  height: 2px;
+  border-color: rgb(83, 160, 255);
+  background-color: rgb(83, 160, 255);
+  width: 50%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.icons {
+  padding-right: 10px;
+  color: rgb(171, 170, 170);
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.nav-links li {
+  list-style: none;
+  padding: 15px 6px;
+}
+
+.nav-links li a {
+  color: rgb(171, 170, 170);
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-links li:hover,
+.nav-links li a:hover,
+.nav-links li a:active {
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+}
+.nav-links li:hover,
+.icons:hover,
+.nav-links li .icons:active {
+  color: rgb(0, 187, 255);
+}
+
+@media (max-width: 500px) {
+  .navtoggle {
+    font-size: 35px;
+  }
+
+  .navbar-container {
+    width: 40%;
+  }
+
+  .image-container img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .image-container p {
+    font-size: 21px;
+  }
+  .nav-links li {
+    padding: 10px 6px;
+  }
+
+  .nav-links li a {
+    font-size: 16px;
+  }
+  .nav-links li:hover,
+  .nav-links li a:hover,
+  .nav-links li a:active {
+    font-size: 17px;
+  }
+  .nav-links li:hover,
+  .icons:hover,
+  .nav-links li .icons:active {
+    color: rgb(0, 187, 255);
+  }
+}
+
+@media (min-width: 768px) {
+  .navtoggle {
+    overflow: hidden;
+    display: none;
+  }
+
+  .navbar-container {
+    width: 25%;
+  }
+
+  .image-container hr {
+    width: 100px;
+  }
+  .image-container p {
+    font-size: 30px;
+  }
+
+  .icons {
+    font-size: 23px;
+  }
+
+  .nav-links li a {
+    font-size: 22px;
+  }
+
+  .nav-links li:hover,
+  .nav-links li a:hover,
+  .nav-links li a:active {
+    font-size: 23px;
+  }
+  .image-container img {
+    margin: 10%;
+    width: 45%;
+    height: 45%;
+  }
+}

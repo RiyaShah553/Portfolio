@@ -1,0 +1,130 @@
+.skills-container {
+  margin: 10px;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.skills-container h1 {
+  font-size: 36px;
+}
+
+.skills-container hr {
+  height: 2px;
+  border-radius: 2px;
+  background-color: rgb(83, 217, 253);
+  border-color: rgb(83, 217, 253);
+  width: 150px;
+  margin-bottom: 50px;
+}
+
+.skills-container p {
+  line-height: 1.5;
+  font-size: 19px;
+}
+
+.main-skill {
+  padding: 20px;
+}
+.main-skill p {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.skills {
+  text-align: right;
+  height: 10px;
+  padding: 3px 0px;
+  color: rgb(5, 5, 5);
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.html {
+  width: 95%;
+  background-color: rgb(83, 217, 253);
+}
+
+.css {
+  width: 80%;
+  background-color: rgb(83, 217, 253);
+}
+
+.js {
+  width: 75%;
+  background-color: rgb(83, 217, 253);
+}
+
+.react {
+  width: 90%;
+  background-color: rgb(83, 217, 253);
+}
+
+.redux {
+  width: 50%;
+  background-color: rgb(83, 217, 253);
+}
+
+.node {
+  width: 85%;
+  background-color: rgb(83, 217, 253);
+}
+
+.express {
+  width: 70%;
+  background-color: rgb(83, 217, 253);
+}
+
+.mongo {
+  width: 90%;
+  background-color: rgb(83, 217, 253);
+}
+
+@media (max-width: 500px) {
+  .skills-container h1 {
+    font-size: 27px;
+  }
+
+  .skills-container hr {
+    height: 1.5px;
+    width: 80px;
+    margin-bottom: 30px;
+  }
+
+  .skills-container p {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  .main-skill {
+    padding: 20px;
+  }
+  .main-skill p {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .container {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .skills-container {
+    width: 60%;
+    margin-left: 30%;
+  }
+  .skills-container h1 {
+    font-size: 35px;
+  }
+
+  .skills-container p {
+    line-height: 1.5;
+    font-size: 17px;
+  }
+}

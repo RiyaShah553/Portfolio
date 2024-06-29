@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  position: relative;
+  background-color: #edebeb;
+  font-family: Josefin Sans;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
